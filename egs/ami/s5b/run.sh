@@ -17,7 +17,7 @@ mic=ihm
 
 # Train systems,
 nj=30 # number of parallel jobs,
-stage=1
+stage=0
 . utils/parse_options.sh
 
 base_mic=$(echo $mic | sed 's/[0-9]//g') # sdm, ihm or mdm
